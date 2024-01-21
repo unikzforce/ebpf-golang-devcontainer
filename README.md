@@ -60,7 +60,7 @@ when the container env has been loaded and get ready:
 - after the ebpf program get loaded in the kernel, we can maintain a communication channel between the kernel space and userspace, so in `./cmd/main.go` you can do some extra work as well
   - like fetching statistics that has been sent by the kernel space program
   - ....
-- in ebpf there are some data structures that can hold data, which is called `bpf maps`, the communication between userspace and kernel space can be achieved throw these `bpf maps`
+- in ebpf there are some data structures that can hold data, which is called `bpf maps`, the communication between userspace and kernel space can be achieved through these `bpf maps`
 
 
 ## Thanks to
