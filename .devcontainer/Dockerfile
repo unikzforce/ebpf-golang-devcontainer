@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/go:dev-1.22-bookworm
+FROM mcr.microsoft.com/devcontainers/go:1.22-bookworm
 
 RUN apt-get update && \
     echo "wireshark-common wireshark-common/install-setuid boolean true" | debconf-set-selections && \
